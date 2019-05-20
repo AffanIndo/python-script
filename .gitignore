@@ -1,5 +1,5 @@
 # Folders #
-__pycahce__/
+__pycache__/
 backupFiles/
 my_env/
 scrape/

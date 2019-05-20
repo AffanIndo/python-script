@@ -16,7 +16,7 @@ def fib(n):
 def Main():
     parser = argparse.ArgumentParser()
     parser.add_argument("num", help="The fibonacci number you wish to calculate.", type=int)
-    
+
     args = parser.parse_args()
 
     result = fib(args.num)

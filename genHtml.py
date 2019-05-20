@@ -6,7 +6,6 @@ Generate HTML boilerplate
 
 import os
 from sys import argv
-from time import sleep
 
 # Generate folders
 os.makedirs('css')
@@ -380,36 +379,10 @@ template {
   display: none;
 }""")
 
+print('Success!')
+
 # Self-destruct if the file in everywhere else
-if os.getcwd() != 'D:\\PROGRAMMING\\git\\python-script':
-    print('EX...')
-    sleep(1)
-    print("""MMMMMMMMMMMMMMMMMMMMMMMo   :dMMMMMMM/  :/// ./oMMMMNy:  -+MMMMMMMMMMMMMMMMMMMMMM
-NMMMMMMMMMMMMMMMMMMMMMMo  .  /mMMMMo  -////`./+MMd+`   `/dMMMMMMMMMMMMMMMMMMMMMM
-y::oymMMMMMMMMMMMMMMMMMo  /:`  +NMy  -/////``//o.  .-  :oMMMMMMMMMMMMMMMMMMMMMMM
-MMh-  `-+sdNMMMMMMMMMMMo  ///:` `+  .//////.`:. `-:/` -/mMMMMMMMMMMMMMMMMMMMMMMM
-MMMMd:      ./ohmMMMMMMo  /////-`  `///////-  .:///- ./oMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMd/  `..``  `-+ydNo  ///////-`////////:-/////:  :/mMMMMMMMMNmhyso+///dMMMMM
-MMMMMMMMm/  `:/::-.`   `  :///////////////////////` -//yso/:-.`       ./yNMMMMMM
-MMMMMMMMMMm+  `-/////:-.` ://////////////////////. `--  ```..----. `-/yNMMMMMMMM
-MMMMMMMMMMMMNo` `-///////////////////////////////---::////////:. `-/yNMMMMMMMMMM
-MMMMMMMMMMMMMMNo` `-////////////////////////////////////////:` .:/yNMMMMMMMMMMMM
-MMMMMMMMMMMMMMms:   ./////////////////////////////////////-` .:/yNMMMMMMMMMMMMMM
-MMMMMMMMMMNy/.  `.://///////////////////////////////////-``-//oNMMMMMMMMMMMMMMMM
-MMMMMMMh+-    .://////////////////////////////////////:.``...   `.-:/+osyhdNMMMM
-MMMMMMMMmyo/.   `..-:////////////////////////////////////////:::--.`   .-+yNMMMM
-MMMMMMMMMMMMMMdyo.    .:///////////////////////////////////////:-` `.:+ymMMMMMMM
-MMMMMMMMMMMMMMh+.  `-://////////////////////////////////////-.` .-:+ymMMMMMMMMMM
-MMMMMMMMMMNy/`  .-://///////////////////////////////////:-` `.:/+ymMMMMMMMMMMMMM
-MMMMMMMmo-  `.://///////:://////////////////////////////:` .://yMMMMMMMMMMMMMMMM
-MMMMh+.    `.```````````` ://////.-///////////////:.://///:` .:/omMMMMMMMMMMMMMM
-Ny+:--:::::::///////////- :////:`  `:////: `-:///// ```.-///:` .:/omMMMMMMMMMMMM
-mddddmmmmmNNNNNNNNNMMMMy  :///- -/:. .:/:``:. `-///.`/:-.``.-::` .:/sNMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMh  -//.`:///+:` .` :///-` .-: -//+/:-.``..` .:/yNMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMd  -:`.///omMdo:` ./hMdy+/-.` `//MMmhs+:-.`   `:/yNMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMm  ``://+dMMMMMms-/yMMMMMmho/-.-/NMMMMMNmhs/-.` `:/hMMMMM""")
-    print('                                                 PLOOOSION!!!')
-    sleep(2)
+if (os.getcwd() != 'D:\\PROGRAMMING\\git\\python-script') \
+    or (os.getcwd() != 'home/affan/Programming/git/python-script'):
     os.remove(argv[0])
-else:
-    pass
+
