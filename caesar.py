@@ -2,7 +2,7 @@
 """
 caesar.py
 Encrypt or decrypt text based from caesar cipher
-Credit to: I82Much - http://stackoverflow.com/questions/8886947/caesar-cipher-function-in-python
+Source: http://stackoverflow.com/questions/8886947/caesar-cipher-function-in-python
 """
 
 def caesar(plainText, shift): 

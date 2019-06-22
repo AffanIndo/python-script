@@ -1,6 +1,6 @@
 
 """
-fileUnderReplacer.py
+fileBracketReplacer.py
 """
 
 import os.rename
