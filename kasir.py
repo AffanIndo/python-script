@@ -18,27 +18,27 @@ else:
     sisa = kembalian
 
     print(str(floor(sisa / 100000)) + " x Rp100000")
-    sisa = kembalian % 100000
+    sisa = sisa % 100000
 
     print(str(floor(sisa / 50000)) + " x Rp50000")
-    sisa = kembalian % 50000
+    sisa = sisa % 50000
 
     print(str(floor(sisa / 20000)) + " x Rp20000")
-    sisa = kembalian % 20000
+    sisa = sisa % 20000
 
     print(str(floor(sisa / 10000)) + " x Rp10000")
-    sisa = kembalian % 10000
+    sisa = sisa % 10000
 
     print(str(floor(sisa / 5000)) + " x Rp5000")
-    sisa = kembalian % 5000
+    sisa = sisa % 5000
 
     print(str(floor(sisa / 2000)) + " x Rp2000")
-    sisa = kembalian % 2000
+    sisa = sisa % 2000
 
     print(str(floor(sisa / 1000)) + " x Rp1000")
-    sisa = kembalian % 1000
+    sisa = sisa % 1000
 
     print(str(floor(sisa / 500)) + " x Rp500")
-    sisa = kembalian % 500
+    sisa = sisa % 500
 
     print("Sisa: Rp" + str(sisa))
